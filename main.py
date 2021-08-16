@@ -14,6 +14,6 @@ def run(*args):
 if __name__ == '__main__':
     run("add", "--all",)
     run("commit", "-m", 'ttt commit')
-    run("push", "-u", "origin", "master")
+    run("push", "-u", "origin", "main")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
