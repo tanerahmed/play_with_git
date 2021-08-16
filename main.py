@@ -15,6 +15,6 @@ if __name__ == '__main__':
     print(run("status"))
     run("add", "--all",)
     run("commit", "-m", 'ttt commit')
-    run("push", "-u", "origin", "master")
+    run("push",)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
