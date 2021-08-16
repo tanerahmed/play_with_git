@@ -14,6 +14,7 @@ def run(*args):
 if __name__ == '__main__':
     tt()
     print(run("status"))
+    print(run("status"))
     run("add", "--all",)
     run("commit", "-m", 'ttt commit')
     run("push", "-u", "origin", "master")
